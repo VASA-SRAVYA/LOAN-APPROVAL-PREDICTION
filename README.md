@@ -38,7 +38,6 @@ This application:
 ---
 
 ## 📁 Project Structure
-
 LoanApprovalApp/
 │
 ├── app.py                  # Main Flask application
