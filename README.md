@@ -35,20 +35,16 @@ This application:
   - Credit_History, Property_Area
  
   - LoanApprovalApp/
-│
-├── app.py # Main Flask app
-├── loan_model.pkl # Trained ML model
-├── loan_data_large.csv # Dataset (1000 records)
-│
-├── templates/
-│ ├── index.html # Prediction input form
-│ └── home.html # (Optional landing page)
-│
-├── static/
-│ └── style.css # Modern UI styles
-│
-├── requirements.txt # All required Python packages
-└── README.md # You're reading it!
+      app.py # Main Flask app
+      loan_model.pkl # Trained ML model
+      loan_data_large.csv # Dataset (1000 records)
+  - templates/
+      index.html # Prediction input form
+      home.html # (Optional landing page)
+  - static/
+      style.css # Modern UI styles
+ requirements.txt # All required Python packages
+ README.md # You're reading it!
 
 Screenshots
 <img width="1895" height="958" alt="Screenshot 2025-07-18 143207" src="https://github.com/user-attachments/assets/14197159-5265-401c-8a61-7eb25c017ca1" />
