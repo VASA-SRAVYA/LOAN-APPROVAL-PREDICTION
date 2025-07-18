@@ -33,18 +33,21 @@ This application:
   - Gender, Married, Dependents, Education
   - Self_Employed, Income, LoanAmount, Loan_Amount_Term
   - Credit_History, Property_Area
- 
-  - LoanApprovalApp/
-      app.py # Main Flask app
-      loan_model.pkl # Trained ML model
-      loan_data_large.csv # Dataset (1000 records)
-  - templates/
-      index.html # Prediction input form
-      home.html # (Optional landing page)
-  - static/
-      style.css # Modern UI styles
- requirements.txt # All required Python packages
- README.md # You're reading it!
+ LoanApprovalApp/
+│
+├── app.py                  # 🎯 Main Flask application
+├── loan_model.pkl          # 🤖 Trained machine learning model (Pickle format)
+├── loan_data_large.csv     # 📊 Dataset with 1000+ realistic loan records
+│
+├── templates/              # 🎨 HTML templates
+│   ├── index.html          # 👉 Loan prediction form page
+│   └── home.html           # (Optional) Landing/intro page
+│
+├── static/                 # 💅 Static files (CSS, images, JS)
+│   └── style.css           # 📁 Styling for the frontend UI
+│
+├── requirements.txt        # 📦 Python package dependencies
+└── README.md               # 📘 Project overview and usage instructions
 
 Screenshots
 <img width="1895" height="958" alt="Screenshot 2025-07-18 143207" src="https://github.com/user-attachments/assets/14197159-5265-401c-8a61-7eb25c017ca1" />
