@@ -41,19 +41,20 @@ This application:
 
 LoanApprovalApp/
 │
-├── app.py # 🎯 Main Flask application
-├── loan_model.pkl # 🤖 Trained machine learning model (Pickle format)
-├── loan_data_large.csv # 📊 Dataset with 1000+ realistic loan records
+├── app.py                  # Main Flask application
+├── loan_model.pkl          # Trained machine learning model (Pickle format)
+├── loan_data_large.csv     # Dataset with 1000+ realistic loan records
 │
-├── templates/ # 🎨 HTML templates
-│ ├── index.html # 👉 Loan prediction form page
-│ └── home.html # (Optional) Landing/intro page
+├── templates/              # HTML templates
+│   ├── index.html          # Loan prediction form page
+│   └── home.html           # (Optional) Landing/intro page
 │
-├── static/ # 💅 Static files (CSS, images, JS)
-│ └── style.css # 📁 Styling for the frontend UI
+├── static/                 # Static files (CSS, images, JS)
+│   └── style.css           # Styling for the frontend UI
 │
-├── requirements.txt # 📦 Python package dependencies
-└── README.md # 📘 Project overview and usage instructions
+├── requirements.txt        # Python package dependencies
+└── README.md               # Project overview and usage instructions
+</details>
 
 Screenshots
 <img width="1895" height="958" alt="Screenshot 2025-07-18 143207" src="https://github.com/user-attachments/assets/14197159-5265-401c-8a61-7eb25c017ca1" />
